@@ -1,0 +1,68 @@
+/* pages/index/index.wxss */
+page{
+  background: white;
+}
+ 
+.screen{
+  position: fixed;
+  bottom:789rpx;
+  word-wrap: break-word;
+  width: 750rpx;
+}
+.screen view{
+color: black;
+font-size: 30px;
+text-align: right;
+margin-right: 30rpx;
+}
+ 
+.btnGroup{
+  /* 弹性布局 */
+  display:flex;
+  /* 横轴显示 */
+  flex-direction: row;
+}
+.btn-item{
+  width: 189rpx;
+  /* 内容居中 */
+  text-align: center;
+  /*行 高度 */
+  line-height: 150rpx;
+  /* 圆角半径 */
+  border-radius: 0;
+}
+.zero{
+  width: 376rpx;
+}
+ 
+icon{
+  position: absolute;
+  left: 55rpx;
+  top: 37rpx;
+}
+ 
+.bottom{
+  position:fixed ;
+  bottom: 0rpx;
+}
+ 
+.white{
+  background:#EFEFED;
+}
+ 
+.orange{
+  background:#fc9504;
+}
+ 
+.gray{
+  background: #CFCFCF;
+}
+ 
+/* 覆盖 button 圆角 */
+button::after{
+  border-radius: 0;
+}
+ 
+.shadow{
+  background: #999;
+}
